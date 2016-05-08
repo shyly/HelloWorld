@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <!--系统信息栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_video_system_status"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--文件名-->
+        <TextView
+            android:id="@+id/videoplay_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="文件名"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <!--系统电量-->
+        <ImageView
+            android:id="@+id/videoplay_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_battery_20" />
+
+        <!--系统时间-->
+        <TextView
+            android:id="@+id/videoplay_systemtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:text="系统时间"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--音量控制栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_video_volume_control"
+        android:gravity="center_vertical">
+
+        <!--静音切换-->
+        <ImageView
+            android:id="@+id/videoplay_iv_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_voice_selector" />
+
+        <!--音量控制-->
+        <SeekBar
+            android:id="@+id/videoplay_sk_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:maxHeight="6dp"
+            android:minHeight="6dp"
+            android:progress="45"
+            android:progressDrawable="@drawable/video_progress_horizontal"
+            android:thumb="@drawable/video_progress_thumb"
+            android:thumbOffset="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

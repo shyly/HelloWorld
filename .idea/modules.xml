@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GRPlayer/GRPlayer.iml" filepath="$PROJECT_DIR$/GRPlayer/GRPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player83/Player83.iml" filepath="$PROJECT_DIR$/Player83/Player83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VoidePlayer.iml" filepath="$PROJECT_DIR$/VoidePlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player83/app.iml" filepath="$PROJECT_DIR$/Player83/app.iml" />
+    </modules>
+  </component>
+</project>
